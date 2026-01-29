@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Sunflower Parks & Gardens</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header yellow">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.jpeg" alt="Sunflower Parks & Gardens logo"><span
+          class="brand-text">Sunflower Parks & Gardens</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="properties.html">Properties</a>
+        <a href="iri.html">ÌRÌ by Sunflower</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container content">
+    <div style="text-align: center; margin-bottom: 40px;">
+      <h1 style="font-size: 3rem; margin-bottom: 10px;">Get in <span class="highlight-brand">Touch</span></h1>
+      <p style="color: var(--muted); font-size: 1.1rem;">Have questions about our properties? We'd love to hear from
+        you.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Left Column: Info + Map -->
+      <div class="contact-info-col">
+        <!-- Info Cards -->
+        <div class="contact-card">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h3 style="margin: 0 0 8px; font-size: 1.2rem;">Head Office</h3>
+            <p style="margin: 0; color: var(--muted); line-height: 1.6;">
+              Emerald Zone<br>
+              28 Ogunlowo Street, Off Alhaja Kofoworola Street,<br>
+              Ikeja, Lagos
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h3 style="margin: 0 0 8px; font-size: 1.2rem;">Phone Support</h3>
+            <p style="margin: 0; color: var(--muted); line-height: 1.6;">
+              <a href="tel:+2347036450007" style="color: inherit; text-decoration: none;">+234 703 645 0007</a><br>
+              <a href="tel:+2349066331132" style="color: inherit; text-decoration: none;">+234 906 633 1132</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Google Map Embed -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.393603376997!2d3.3353592!3d6.5978736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b922896eda973%3A0x6310226227276503!2s28%20Ogunlowo%20St%2C%20Opebi%2C%20Ikeja%20101233%2C%20Lagos!5e0!3m2!1sen!2sng!4v1706149000000!5m2!1sen!2sng"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div style="text-align: right; margin-top: 8px;">
+          <a href="https://maps.app.goo.gl/9Zxyz" target="_blank"
+            style="color: var(--brand-dark); font-weight: 600; text-decoration: none; font-size: 0.9rem;">
+            Open in Google Maps <i class="fa-solid fa-arrow-up-right-from-square"
+              style="font-size: 0.8em; margin-left: 4px;"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Form -->
+      <div class="contact-form-col">
+        <h2 style="font-size: 1.8rem; margin-bottom: 24px;">Send Message</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="email@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" class="form-control" placeholder="080 123 45678">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="How can we help you today?"></textarea>
+          </div>
+          <button type="submit" class="btn primary" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top yellow">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <img src="images/logo.jpeg" alt="Sunflower Parks & Gardens" class="footer-logo">
+            <p class="footer-tag">Creating valuable, family-centred communities.</p>
+          </div>
+
+          <div class="footer-offices">
+            <h3>Our Offices</h3>
+            <div class="office">
+              <strong>Head Office</strong>
+              <p>28 Ogunlowo Street, off Alhaja Kofoworola Street, Ikeja, Lagos.</p>
+            </div>
+          </div>
+
+          <div class="footer-call">
+            <h3>CALL US ON</h3>
+            <ul class="call-list">
+              <li><a href="tel:+2347036450007">+234-703-645-0007</a></li>
+              <li><a href="tel:+2349066331132">+234-906-633-1132</a></li>
+              <li><a href="tel:+2348065991640">+234-806-599-1640</a></li>
+            </ul>
+            <h4>GET INVOLVED</h4>
+            <ul class="involved-list">
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact US</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h3>SOCIAL MEDIA</h3>
+            <ul class="social-list">
+              <li><a class="fa-fa-footer" href="#" title="X"><span class="fa-icon"><i class="fa-solid fa-x"></i></span>
+                  <span class="fa-label">X</span></a></li>
+              <li><a class="fa-fa-footer" href="#" title="Instagram"><span class="fa-icon"><i
+                      class="fa-brands fa-instagram"></i></span> <span class="fa-label">Instagram</span></a></li>
+              <li><a class="fa-fa-footer" href="#" title="LinkedIn"><span class="fa-icon"><i
+                      class="fa-brands fa-linkedin-in"></i></span> <span class="fa-label">Linkedin</span></a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div class="copyright">© Copyright <strong>Sunflower Parks and Gardens</strong>. All Rights Reserved.</div>
+        <div class="back-top-wrap">
+          <button class="back-to-top" aria-label="Back to top">↑</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/slider.js"></script>
+</body>
+
+</html>

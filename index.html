@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sunflower Parks & Gardens</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header yellow">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.jpeg" alt="Sunflower Parks & Gardens logo"><span
+          class="brand-text">Sunflower Parks & Gardens</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="properties.html">Properties</a>
+        <a href="iri.html">ÌRÌ by Sunflower</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+
+
+  </header>
+
+  <main>
+    <!-- Hero slideshow -->
+    <section class="hero reveal-on-scroll">
+      <div class="slideshow" id="slideshow">
+        <div class="slide top-anchor" style="background-image:url('images/hero-05.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h1>Sunflower Parks & Gardens</h1>
+            <p>A mixed residential and commercial estate designed for modern living.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="properties.html">View Properties</a>
+              <a class="btn outline" href="iri.html">Explore ÌRÌ by Sunflower</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/hero-02.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>Strategically Located for Growth</h2>
+            <p>Behind T.A Gardens Estate along the Lagos–Ibadan Expressway, less than 25 minutes from Alausa, Ikeja.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="about.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/hero-03.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>ÌRÌ by Sunflower</h2>
+            <p>A luxury residential estate within Sunflower Park, inspired by serenity, peace, and prosperity.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="iri.html">Explore ÌRÌ</a>
+              <a class="btn outline" href="contact.html">Invest Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/hero-04.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>Thoughtful Masterplanning</h2>
+            <p>Thoughtfully planned neighborhoods, generous open spaces and modern infrastructure for family living.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="properties.html">See Plots</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/hero-05.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>Green Public Spaces</h2>
+            <p>Parks and walkways designed to connect residents with nature and community life.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="about.html">Community</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/hero-06.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>Secure, Gated Living</h2>
+            <p>24/7 security and controlled access for peace of mind and long-term value retention.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="contact.html">Contact Sales</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide top-anchor" style="background-image:url('images/hero-07.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>Investment Opportunity</h2>
+            <p>Secure attractive long-term returns with carefully staged development phases.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="iri.html">Investment Options</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image:url('images/hero-08.jpeg')">
+          <div class="overlay"></div>
+          <div class="slide-content container">
+            <h2>Live Near Everything</h2>
+            <p>Convenient access to major routes while maintaining the calm of private estate living.</p>
+            <div class="cta-group">
+              <a class="btn primary" href="properties.html">Browse Plots</a>
+            </div>
+          </div>
+        </div>
+
+        <button class="slide-arrow prev" data-dir="-1">‹</button>
+        <button class="slide-arrow next" data-dir="1">›</button>
+        <div class="dots" id="slide-dots"></div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- FAQ will appear after About & Vision/Mission -->
+
+    <!-- (Vision & Mission removed here; placed after About as requested) -->
+
+    <!-- About summary (enhanced) -->
+    <section class="summary container reveal-on-scroll">
+      <h2 class="summary-title">About <span class="summary-accent">Us</span></h2>
+      <div class="summary-body">
+        <p>Sunflower Park Estate is a thoughtfully master-planned mixed-use community located behind T.A Gardens Estate
+          along the Lagos–Ibadan Expressway. Less than 25 minutes from Alausa, Ikeja, the estate combines modern
+          infrastructure with generous green spaces to deliver secure, healthy, and valuable living.</p>
+
+        <p>Designed around family living and long-term value, Sunflower Park provides a range of residential and
+          commercial options, well-lit road networks, sustainable drainage, and recreational amenities. Our approach
+          balances convenience with nature so residents enjoy both accessibility and a peaceful environment.</p>
+
+        <p>Highlights: 60-acre master plan, residential & commercial plots, eco-friendly landscaping, gated security,
+          and community-focused amenities that support lasting investment returns.</p>
+      </div>
+    </section>
+    <!-- Vision & Mission (placed after About as requested) -->
+    <section class="mission container reveal-on-scroll">
+      <div class="mission-grid">
+        <article class="mission-card" data-role="vision" tabindex="0">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 5c-5 0-9 7-9 7s4 7 9 7 9-7 9-7-4-7-9-7zm0 10.2A3.2 3.2 0 1 1 12 8.8a3.2 3.2 0 0 1 0 6.4z"
+                fill="currentColor" />
+            </svg>
+          </div>
+          <h3>Our Vision</h3>
+          <p>To make home ownership an achievable reality for as many people as possible by delivering well-planned
+            communities that balance convenience, safety and green living.</p>
+        </article>
+
+        <article class="mission-card" data-role="mission" tabindex="0">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 6h-2v6l5 3 1-1-4-2V8z" fill="currentColor" />
+            </svg>
+          </div>
+          <h3>Our Mission</h3>
+          <p>To discover and present valuable land opportunities, guide buyers through practical financing options, and
+            build sustainable neighbourhoods that deliver long-term value.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="faq container reveal-on-scroll">
+      <h2 class="faq-title">Frequently Asked <span class="faq-accent">Questions</span></h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is Sunflower Parks & Gardens?</summary>
+          <div class="faq-body">
+            <p>Sunflower Parks & Gardens is a 60-acre master-planned community offering residential and commercial
+              plots, modern infrastructure, and communal amenities focused on sustainable, family-friendly living.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where is the estate located?</summary>
+          <div class="faq-body">
+            <p>The estate is located behind T.A Gardens Estate along the Lagos–Ibadan Expressway, approximately 25
+              minutes from Alausa, Ikeja, with easy access to major routes.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do you offer installment payment plans?</summary>
+          <div class="faq-body">
+            <p>Yes — we provide flexible financing and staged payment options for qualified buyers. Contact our sales
+              team for plan details and eligibility.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Are the roads and infrastructure ready?</summary>
+          <div class="faq-body">
+            <p>Our development phases include prepared road networks, drainage, and utility planning. Specifics depend
+              on the phase; get in touch for phase-by-phase status.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is the development gated and secured?</summary>
+          <div class="faq-body">
+            <p>Yes — the estate implements gated access and 24/7 security measures to maintain safety and long-term
+              value for residents.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I invest in ÌRÌ by Sunflower?</summary>
+          <div class="faq-body">
+            <p>ÌRÌ is a premium phase within Sunflower Park offering residential units and investment packages. Visit
+              the ÌRÌ page or contact sales for pricing and options.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I view available properties?</summary>
+          <div class="faq-body">
+            <p>Browse the `Properties` page for current plots and units, or contact our sales team to schedule a site
+              visit.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Who should I contact for more information?</summary>
+          <div class="faq-body">
+            <p>Contact our sales office at <a href="mailto:iribysunflower@gmail.com">iribysunflower@gmail.com</a> or
+              call <a href="tel:+2347056741011">+234 705 674 1011</a>.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top yellow">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <img src="images/logo.jpeg" alt="Sunflower Parks & Gardens" class="footer-logo">
+            <p class="footer-tag">Creating valuable, family-centred communities.</p>
+          </div>
+
+          <div class="footer-offices">
+            <h3>Our Offices</h3>
+            <div class="office">
+              <strong>Head Office</strong>
+              <p>28 Ogunlowo Street, off Alhaja Kofoworola Street, Ikeja, Lagos.</p>
+            </div>
+          </div>
+
+          <div class="footer-call">
+            <h3>CALL US ON</h3>
+            <ul class="call-list">
+              <li><a href="tel:+2347036450007">+234-703-645-0007</a></li>
+              <li><a href="tel:+2349066331132">+234-906-633-1132</a></li>
+              <li><a href="tel:+2348065991640">+234-806-599-1640</a></li>
+            </ul>
+            <h4>GET INVOLVED</h4>
+            <ul class="involved-list">
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact US</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h3>SOCIAL MEDIA</h3>
+            <ul class="social-list">
+              <li><a class="fa-fa-footer" href="#" title="X"><span class="fa-icon"><i class="fa-solid fa-x"></i></span>
+                  <span class="fa-label">X</span></a></li>
+              <li><a class="fa-fa-footer" href="#" title="Instagram"><span class="fa-icon"><i
+                      class="fa-brands fa-instagram"></i></span> <span class="fa-label">Instagram</span></a></li>
+              <li><a class="fa-fa-footer" href="#" title="LinkedIn"><span class="fa-icon"><i
+                      class="fa-brands fa-linkedin-in"></i></span> <span class="fa-label">Linkedin</span></a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div class="copyright">© Copyright <strong>Sunflower Parks and Gardens</strong>. All Rights Reserved.</div>
+        <div class="back-top-wrap">
+          <button class="back-to-top" aria-label="Back to top">↑</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
